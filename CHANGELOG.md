@@ -20,7 +20,7 @@ die Versionsnummern folgen der [Semantischen Versionierung](https://semver.org/l
 ### Geändert
 
 - Das Review der Organisation steht auf `520efcc` von OpenGewerk/.github (OpenGewerk/.github#54), prüft neben der Sicherheit auch die Korrektheit eines Pull Requests und läuft mit Opus statt Sonnet. Warum: es hatte zwei Fehler übersehen, die CodeRabbit fand, eine nicht gehaltene Frist und eine am Telefon fehlende Spalte.
-- Das Review der Organisation steht auf `ba04843` von OpenGewerk/.github (OpenGewerk/.github#56): Pull Requests von außen bekommen jetzt einen Bericht, das Review bietet dem Agenten nur noch die erlaubten Werkzeuge an und prüft das vor dem Lauf, und Pull Requests des Coding-Agents von CodeRabbit laufen wie die eines Mitglieds. Warum: Seit Beginn brach das Review von außen vor seiner ersten Antwort ab, weil es bubblewrap verlangte, und Bash war dort nicht abgeschaltet.
+- Das Review der Organisation steht auf `ba04843` von OpenGewerk/.github (OpenGewerk/.github#56): Pull Requests von außen bekommen jetzt einen Bericht, das Review bietet dem Agenten nur noch die erlaubten Werkzeuge an und prüft das vor dem Lauf, und Pull Requests des Coding-Agents von CodeRabbit laufen wie die eines Mitglieds, bekommen aber nie ein Approve. Warum: Seit Beginn brach das Review von außen vor seiner ersten Antwort ab, weil es bubblewrap verlangte, und Bash war dort nicht abgeschaltet.
 - Das Security-Review steht auf `e53047a` von OpenGewerk/.github (OpenGewerk/.github#50) und wird
   unter dem neuen Namen der Organisation aufgerufen. Der Stand nimmt den Namen im Pin und in einer
   Submodul-Adresse in beiden Schreibweisen an.
